@@ -26,8 +26,7 @@ let package = Package(
 		Target(name: "PerfectHTTPServer", dependencies: ["CZlib"])
 	],
 	dependencies: [
-		.Package(url: "https://github.com/PerfectlySoft/Perfect-HTTP.git", majorVersion: 2),
-		.Package(url: "https://github.com/Zewo/CHTTPParser", majorVersion: 0)
+		.Package(url: "https://github.com/PerfectlySoft/Perfect-HTTP.git", majorVersion: 2)
 	],
 	exclude: ["Sources/CZlib/examples", "Sources/CZlib/test", "Sources/CZlib/contrib"]
 )
